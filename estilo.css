@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#pokedex{
+    width: 500px;
+    position: relative;
+}
+#pokedex img{
+    width: 100%;
+}
+#pokemon-foto{
+    width: 207px;
+    height: 210px;
+    position: absolute;
+    top: 95px;
+    left: 18px;
+}
+#pokemonLista{
+    position: absolute;
+    right: 23px;
+    top: 100px;
+    width: 187px;
+}
